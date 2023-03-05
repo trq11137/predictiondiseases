@@ -16,7 +16,7 @@ Pregnency_model = pickle.load(open('Pregnancy_disease_model.sav', 'rb'))
 # side bar for navigations
 
 with st.sidebar:
-    selected = option_menu('Multiple Disease Prediction System',
+    selected = option_menu('Multiple Disease Prediction System for Human Body',
                            ['Diabetes Prediction',
                             'Heart Disease Prediction',
 
